@@ -1,0 +1,17 @@
+{
+  "name": "npm-demo",
+  "version": "1.0.0",
+  "description": "Demo application for npm package manager course",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": ["npm", "demo", "express", "rest-api"],
+  "author": "Build Tools Course",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.0"
+  }
+}

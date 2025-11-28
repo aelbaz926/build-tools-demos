@@ -1,0 +1,26 @@
+# Maven
+maven-demo/target/
+maven-demo/.classpath
+maven-demo/.project
+maven-demo/.settings/
+
+# npm
+npm-demo/node_modules/
+npm-demo/package-lock.json
+
+# Python
+pip-demo/venv/
+pip-demo/__pycache__/
+pip-demo/*.pyc
+pip-demo/.pytest_cache/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
