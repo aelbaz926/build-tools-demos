@@ -24,3 +24,7 @@ pip-demo/.pytest_cache/
 # OS
 .DS_Store
 Thumbs.db
+
+# Go
+go-demo/go-demo
+go-demo/*.exe

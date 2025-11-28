@@ -29,6 +29,15 @@ python app.py
 # Press Ctrl+C to stop, then: deactivate
 ```
 
+### Go Demo
+```bash
+cd go-demo
+go mod tidy
+go run main.go
+# In another terminal: curl http://localhost:8080/
+# Press Ctrl+C to stop
+```
+
 ## 📋 Prerequisites Check
 
 Run these commands to verify you have everything installed:
@@ -45,19 +54,22 @@ npm -v           # Should be 8+
 # Python & pip
 python3 --version  # Should be 3.8+
 pip3 --version
+
+# Go
+go version       # Should be 1.19+
 ```
 
 ## 🚀 Installation Commands
 
 ### macOS (using Homebrew)
 ```bash
-brew install openjdk@11 maven node python3
+brew install openjdk@11 maven node python3 go
 ```
 
 ### Ubuntu/Debian
 ```bash
 sudo apt update
-sudo apt install openjdk-11-jdk maven nodejs npm python3 python3-pip python3-venv
+sudo apt install openjdk-11-jdk maven nodejs npm python3 python3-pip python3-venv golang-go
 ```
 
 ## 📁 Repository Structure
@@ -76,6 +88,10 @@ build-tools-demos/
 │   ├── requirements.txt
 │   ├── app.py
 │   └── README.md
+├── go-demo/             # Go + Go Modules
+│   ├── go.mod
+│   ├── main.go
+│   └── README.md
 └── README.md
 ```
 
@@ -85,4 +101,5 @@ build-tools-demos/
 - Maven demo: Simple console application
 - npm demo: REST API on port 3000
 - pip demo: REST API on port 5000
+- Go demo: REST API on port 8080
 - All demos show dependency management in action
